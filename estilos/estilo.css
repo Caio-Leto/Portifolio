@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Bebas+Neue&family=Roboto:wght@100&display=swap');
+
+@font-face {
+    font-family: 'Minecraft';
+    src: url(../fonts/Minecraft.ttf) format('opentype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --fundo: #37628A;
+    --main: #136bbdb9;
+    --texto: #E2EDDA;
+
+    --fonte-padrao: 'Akshar', sans-serif;
+    --fonte-final: 'Minecraft', cursive;
+}
+
+body {
+    font-family: var(--fonte-padrao);
+    background-color: var(--fundo);
+    height: 600px;
+
+}
+
+header {
+    padding-top: 10px;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    color: var(--texto);
+    text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.486);
+}
+
+main {
+    background-color: var(--main);
+    width: 70%;
+    height: 400px;
+    padding-top: 20px;
+    margin: auto;
+    box-shadow: 0px 7px 7px #00000075;
+    border-radius: 10px 10px 0px 0px;
+    text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.486);
+
+}
+
+main h2 {
+    text-align: center;
+    padding-bottom: 5px;
+    color: var(--texto);
+    font-family: var(--fonte-padrao);
+}
+
+main p {
+    text-align: center;
+    font-weight: bold;
+    font-family: var(--fonte-padrao);
+}
+
+main a {
+    text-decoration: none;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 20px;
+    transition-duration: 0.5s;
+    color: var(--texto);
+}
+
+main a:hover {
+    text-decoration: underline;
+    background-color: var(--fundo);
+}
+
+a::after {
+    content: "\00A0\1F517";
+}
+
+.foto {
+    padding: 40px;
+    width: 25%;
+    border-radius: 50%;
+}
+
+.perfil {
+    text-align: center;
+}
+
+.seta {
+    text-align: center;
+}
+
+.ajustando {
+    margin-bottom: 10px;
+    height: 17px;
+    width: 15px;
+}
+
+aside {
+    text-align: center;
+    color: var(--texto);
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 45px;
+    text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.486);
+}
+
+footer {
+    background-color: #193E94;
+    text-align: center;
+    color: black;
+    font-family: var(--fonte-final);
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    height: 30px;
+    text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.486);
+    box-shadow: 7px 7px 7px 7px rgba(0, 0, 0, 0.486);
+}
+.git {
+    text-align: center;
+}
+.boneco {
+    width: 23px;
+    height: 0%;
+}
