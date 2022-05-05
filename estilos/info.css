@@ -6,6 +6,10 @@
 
     --fonte-padrao: 'Akshar', sans-serif;
 }
+html {
+    /*Função para deixar a tela suave.*/
+    scroll-behavior: smooth;
+}
 * {
     padding: 0;
     margin: 0;
