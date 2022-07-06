@@ -23,6 +23,7 @@ body {
 
 header {
     background-color: #193E94;
+    position: fixed;
     display: flex;
     align-items: center;
     justify-content: space-between;
