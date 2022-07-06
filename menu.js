@@ -6,7 +6,7 @@ const iconeMenu = document.querySelector('.icone-menu');
 btnMenuMobile.addEventListener('click', () => {
     if (menu.classList.contains('mostra-menu')) {
         menu.classList.remove('mostra-menu')
-        iconeMenu.src = 'imagens/botaored.png'
+        iconeMenu.src = 'imagens/botaoredi.png'
     } else {
         menu.classList.add('mostra-menu')
         iconeMenu.src = 'imagens/close.svg'
